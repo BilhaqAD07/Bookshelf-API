@@ -33,6 +33,10 @@ The Bookshelf API is a backend service for managing a collection of books. It al
 
 ## Endpoints
 - `GET /books` - Retrieve all books
+    - Query Parameters:
+        - `name` (optional): Filter books by name
+        - `reading` (optional): Filter books by reading status
+        - `finished` (optional): Filter books by finished status
 - `GET /books/:id` - Retrieve a book by ID
 - `POST /books` - Add a new book
 - `PUT /books/:id` - Update a book by ID
